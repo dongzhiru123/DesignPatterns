@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 /**
  * 测试方法
+ *
  */
 public class TestMain {
     public static void main(String[] args) {
