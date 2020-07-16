@@ -1,5 +1,8 @@
 package designpatterns.simplefactory;
 
+import designpatterns.simplefactory.factory.OperationFactory;
+import designpatterns.simplefactory.fatheroperation.Operation;
+
 import java.util.Scanner;
 
 /**

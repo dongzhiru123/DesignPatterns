@@ -1,5 +1,8 @@
-package designpatterns.simplefactory;
+package designpatterns.simplefactory.fatheroperation;
 
+/**
+ * 所有操作的父类，无论添加什么操作都可以继承该类重写该类的getResult方法
+ */
 public class Operation {
 
     private double numberA = 0;

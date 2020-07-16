@@ -1,5 +1,10 @@
-package designpatterns.simplefactory;
+package designpatterns.simplefactory.operation;
 
+import designpatterns.simplefactory.fatheroperation.Operation;
+
+/**
+ * 除法操作
+ */
 public class OperationDiv extends Operation {
     @Override
     public double getResult(double number1, double number2) {
